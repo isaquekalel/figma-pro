@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: antiquewhite;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+
+li {
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.container p {
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-left: 40px;
+    width: 50px;
+    height: 70px;
+}
+
+.divBusca {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtbusca {
+    width: 340px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-image: url(assents/3183361.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.nig {
+    color: black;
+}
+
+.frase {
+    color: #F08C7C;
+    font-size: 60px;
+    font-family: "Leckerli One", cursive;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-25%, -80%);
+    text-align: center;
+    width: 70%;
+}
+
+.imagem2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.imagem2 img {
+    width: 100%;
+    height: auto;
+}
+
+.moda {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 24px;
+    margin-top: 37px;
+}
+
+
+.container1 {
+    padding: 20px;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    width: 270px;
+    height: 410px;
+    margin: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.bi-person-fill {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button {
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: #F08C7C;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px #808080;
+}
+
+.button:hover {
+    background-color: #f38170;
+}
+
+.titulos,
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imagem-card {
+    width: 200px;
+    height: 250px;
+    margin-top: 10%;
+}
+
+.joia {
+    margin-top: 1%;
+    margin-left: 5%;
+    color: white;
+}
+
+.fundo1 {
+    background-color: #f38170;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    margin-top: 6%;
+}
+
+.titulo {
+    font-size: 30px;
+
+}
+
+.joia2 {
+    margin-top: 1%;
+    margin-left: 10%;
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fontexd {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+}
+
+.joia3 {
+    margin-top: 1%;
+    margin-left: 15%;
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bi-folder {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.instagram,
+.facebook,
+.pinterest {
+    margin: 11px;
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.redes {
+    display: flex;
+    margin-left: 450px;
+    margin-top: 5%;
+    margin-right: 3%;
+ }
+
